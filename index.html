@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white font-sans">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-8 py-4 bg-opacity-30 backdrop-blur-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-blue-400">My Portfolio</h1>
+    <ul class="flex gap-6 text-lg">
+      <li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+      <li><a href="#work" class="hover:text-blue-400 transition">Work</a></li>
+      <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-5xl font-extrabold mb-4">Hi, I’m <span class="text-blue-400">[Your Name]</span></h2>
+    <p class="text-lg max-w-xl text-gray-300 mb-6">I’m a 16-year-old video editor, hardware tinkerer, and robotics enthusiast. I make the most of every tool I use to bring creative ideas to life.</p>
+    <a href="#contact" class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-xl shadow-lg text-lg font-semibold transition">Hire Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-8 max-w-4xl mx-auto text-center">
+    <h3 class="text-4xl font-bold mb-6 text-blue-400">About Me</h3>
+    <p class="text-gray-300 text-lg leading-relaxed">I’m passionate about technology and creativity. I’ve been editing videos in CapCut (free version), pushing it to its limits to create professional-looking content. Beyond editing, I also work on computer hardware and robotics, which gives me a mix of creativity and technical problem-solving skills.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-8 bg-gray-800">
+    <h3 class="text-4xl font-bold mb-10 text-center text-blue-400">Skills</h3>
+    <div class="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-2">🎬 Video Editing</h4>
+        <p class="text-gray-400">CapCut editing, transitions, effects, pacing, and storytelling with limited resources but maximum creativity.</p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-2">🖥️ Computer Hardware</h4>
+        <p class="text-gray-400">Building, fixing, and optimizing PCs. Strong understanding of how systems work under the hood.</p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-2">🤖 Robotics</h4>
+        <p class="text-gray-400">Hands-on experience with robotics projects, problem-solving, and creative technical builds.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="py-20 px-8 max-w-5xl mx-auto text-center">
+    <h3 class="text-4xl font-bold mb-6 text-blue-400">My Work</h3>
+    <p class="text-gray-300 mb-10">Here are some of my video edits. I’m always learning and improving.</p>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-900 rounded-xl shadow-lg p-4 hover:scale-105 transition">
+        <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/67CQCotS1IQ" title="Edit 1" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="bg-gray-900 rounded-xl shadow-lg p-4 hover:scale-105 transition">
+        <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/Usdr5B1bXxs" title="Edit 2" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="bg-gray-900 rounded-xl shadow-lg p-4 hover:scale-105 transition">
+        <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/5XgsZe6nksQ" title="Edit 3" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-8 bg-gray-800 text-center">
+    <h3 class="text-4xl font-bold mb-6 text-blue-400">Contact Me</h3>
+    <p class="text-gray-300 mb-6">Interested in working with me? Let’s talk!</p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nikolatrajkovic711@gmail.com" target="_blank" class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-xl shadow-lg text-lg font-semibold transition">Send Email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2025 [Your Name]. All Rights Reserved.
+  </footer>
+</body>
+</html>
